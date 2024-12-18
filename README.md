@@ -23,7 +23,7 @@ where the cost function g(x,u) is:
 g(x_i, u_i) = (θ-π)^2 + 0.01 \cdot \dot{θ}_i^2 + 0.0001 \cdot u_i^2
 ```
 <br><br>
-<img src="pendulum.png" width="150">
+<img src="assets/pendulum.png" width="150">
 
 ### Key Features
 
@@ -49,7 +49,7 @@ g(x_i, u_i) = (θ-π)^2 + 0.01 \cdot \dot{θ}_i^2 + 0.0001 \cdot u_i^2
 1. Clone the repository
 2. Install the required dependencies:
    ```bash
-   pip install numpy matplotlib ipython jupyter
+   pip install -r requirements.txt
    ```
 3. Open and run the Jupyter notebook:
    ```bash
